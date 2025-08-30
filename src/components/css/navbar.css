@@ -15,12 +15,20 @@
     font-size: 1.5 rem;
     font-weight: bold;
     color:  #f9fbfa;
+    text-shadow: 2px 2px #269367;
     text-decoration: none;
+}
+.navbar-center {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .navbar-center .nav-links {
     list-style: none;
     display: flex;
+    align-items: center;
     gap: 30px;
     margin: 0;
     padding: 0;
@@ -37,13 +45,55 @@
     color: #00FF84;
 }
 
+.navbar-right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+ .navbar-search{
+    position: relative;
+    margin: 0 20px;
+}
 
+.search-icon{
+    padding-top: 5px;
+    position: absolute;
+    left: 10px;
+    color: #269367;
+    font-size: 1rem;
+    pointer-events: none;
+}
+
+.search-input{
+    padding: 6px 12px;
+    padding-left: 32px;
+    border-radius: 4px;
+    border: 1px solid #269367;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+.search-input:focus{
+    box-shadow: #fdfefe;
+    border-color: #0a0a0a;
+}
+
+
+.navbar-right a{
+    text-decoration: none;
+}
 .navbar-right .user-icon{
-   color: #B3B3B3;
+   color: #efeeee;
    font-size: 1.2rem;
    transition: color 0.3s ease;
 }
 
 .navbar-right .user-icon:hover{
    color: #00FF84;
+}
+
+.navbar-right .user-icon .login{
+    padding: 10px;
+    color: white;
+
 }
