@@ -63,6 +63,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 ### Deployment
 
+Deployed using Vercel, can visit via: https://e-rental-version2-0.vercel.app/
+
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 ### `npm run build` fails to minify
